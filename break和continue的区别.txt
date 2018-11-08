@@ -1,0 +1,4 @@
+break 和 continue 的区别:
+break 和 continue 都是用来控制循环的语句。
+break 用于完全结束一个循环，跳出循环体执行循环后面的语句。
+continue 用于跳过本次循环，执行下次循环。
