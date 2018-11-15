@@ -1,0 +1,3 @@
+在 java 中 wait 和 sleep 方法的不同
+最大的不同是在等待时 wait 会释放锁，而 sleep 一直持有锁。wait 通常被用于线程间交互，sleep 通常被用于暂
+停执行
