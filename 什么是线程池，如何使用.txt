@@ -1,0 +1,9 @@
+什么是线程池，如何使用
+线程池就是事先将多个线程对象放到一个容器中，当使用的时候就不用 new 线程而是直接去池中拿线程即可，节
+省了开辟子线程的时间，提高的代码执行效率。
+在 JDK 的 java.util.concurrent.Executors 中提供了生成多种线程池的静态方法。
+1. ExecutorService newCachedThreadPool = Executors.newCachedThreadPool();
+2. ExecutorService newFixedThreadPool = Executors.newFixedThreadPool(4);
+3. ScheduledExecutorService newScheduledThreadPool = Executors.newScheduledThreadPool(4);
+4. ExecutorService newSingleThreadExecutor = Executors.newSingleThreadExecutor();
+然后调用他们的 execute 方法即可。
