@@ -5,5 +5,4 @@
 1. ExecutorService newCachedThreadPool = Executors.newCachedThreadPool();
 2. ExecutorService newFixedThreadPool = Executors.newFixedThreadPool(4);
 3. ScheduledExecutorService newScheduledThreadPool = Executors.newScheduledThreadPool(4);
-4. ExecutorService newSingleThreadExecutor = Executors.newSingleThreadExecutor();
-然后调用他们的 execute 方法即可。
+4. ExecutorService newSingleThreadExecutor = Executors.newSingleThreadExecutor()
