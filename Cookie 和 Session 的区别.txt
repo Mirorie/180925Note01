@@ -1,0 +1,7 @@
+Cookie 是 web 服务器发送给浏览器的一块信息，浏览器会在本地一个文件中给每个 web 服务器存储 cookie。
+以后浏览器再给特定的 web 服务器发送请求时，同时会发送所有为该服务器存储的 cookie。
+Session 是存储在 web 服务器端的一块信息。session 对象存储特定用户会话所需的属性及配置信息。当用户在
+应用程序的 Web 页之间跳转时，存储在 Session 对象中的变量将不会丢失，而是在整个用户会话中一直存在下去。
+Cookie 和 session 的不同点：
+1、无论客户端做怎样的设置，session 都能够正常工作。当客户端禁用 cookie 时将无法使用 cookie。
+2、在存储的数据量方面：session 能够存储任意的 java 对象，cookie 只能存储 String 类型的对象。
